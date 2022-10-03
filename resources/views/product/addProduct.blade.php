@@ -124,7 +124,7 @@
             });
                       
             $.ajax({
-                url: "http://127.0.0.1:8000/product",
+                url: '{{url("product")}}',
                 method: 'POST',
                 data: data,
                 processData: false,
