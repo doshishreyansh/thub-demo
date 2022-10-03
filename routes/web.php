@@ -20,6 +20,6 @@ Route::controller(ProductController::class)->group(function () {
     Route::post('product', 'store');
 });
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
